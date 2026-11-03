@@ -4,7 +4,9 @@
 
 ## Contexte
 
-✏️ *En trois à cinq phrases : qui utilise l'outil, quel problème il résout, ce qu'il ne permet pas de conclure.*
+## Contexte
+
+Le journal météorologique est un outil destiné aux responsables d'une ferme pédagogique pour enregistrer et suivre les données quotidiennes de température, de pluie et d'humidité de l'air. Il facilite la consultation et l'analyse des relevés, mais ne permet pas de prévoir le temps ni de caractériser le climat à long terme.
 
 ## Prérequis et lancement
 
@@ -23,7 +25,7 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ✏️ *Cochez seulement ce qui marche : `- [x]`.*
 
-- [ ] Données lues et enregistrées dans `donnees/releves.json`
+- [] Données lues et enregistrées dans `donnees/releves.json`
 - [ ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
 - [ ] Lister les relevés, message si le journal est vide
 - [ ] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
