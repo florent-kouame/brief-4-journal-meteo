@@ -4,9 +4,9 @@
 
 | Tâche | Prévu | Fait le | Preuve |
 | --- | --- | --- | --- |
-| Poste et dépôt prêts ; besoin compris ; documents commencés | Premier jour |03/11/2026| |
-| Fiche 2 : lire et écrire le JSON | | | |
-| Fiche 3 : ajouter et lister ; choix 1 et 2 ; erreurs | | | |
+| Poste et dépôt prêts ; besoin compris ; documents commencés | Premier jour |03/11/2026| premier commit comprehension du besoin , préparation du poste et planification du fiches/1-concevoir.md |
+| Fiche 2 : lire et écrire le JSON | deuxième jour | 04/11/2026 | j'ai lu et écrit les données dans un fichier JSON. Puis, j'ai lié le fichier JSON et renvoyé le tableau qu'il contient puis verifié avec npm test |
+| Fiche 3 : ajouter et lister ; choix 1 et 2 ; erreurs | deuxième jour | 04/11/2026 |  j'ai ajouté et listé les relevés , puis verifié avec npm run test:stockage |
 | Fiche 4 : rechercher et trier ; choix 3 et 4 | | | |
 | Fiche 5 : synthèse ; choix 5 | | | |
 | Tests par un camarade ; mes propres tests | | | |
