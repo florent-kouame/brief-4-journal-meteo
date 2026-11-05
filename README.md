@@ -36,15 +36,14 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 ## Données
 Les relevés utilisés dans ce projet sont des données fictives, créées uniquement à des fins pédagogiques. Ils ne représentent pas des observations météorologiques réelles.
 
-Les données sont enregistrées dans le fichier (donnees/releves.json).
-Le journal contient des relevés météorologiques fictifs utilisés dans le cadre de ce projet pédagogique.
+Les données sont enregistrées dans le fichier (donnees/releves.json)
 Chaque relevé comporte les informations suivantes :
 
 Identifiant : permet d'identifier chaque relevé 
 Date : date de réalisation du relevé 
-Température : température de l'air exprimée en degrés Celsius (°C).
-Pluie : quantité de pluie enregistrée en millimètres (mm).
-Humidité de l'air : humidité relative exprimée en pourcentage (%).
+Température : température de l'air exprimée en degrés Celsius (°C)
+Pluie : quantité de pluie enregistrée en millimètres (mm)
+Humidité de l'air : humidité relative exprimée en pourcentage (%)
 
 Ces données permettent de suivre les conditions météorologiques quotidiennes de la ferme et de réaliser des calculs statistiques simples.
 
@@ -63,4 +62,5 @@ L'humidité relative de l'air ne correspond pas à l'humidité du sol et ne perm
 ## Auteur
 
 KOUADIO KONAN FLORENT KOUAME, https://github.com/florent-kouame
+
 Entraide avec OUEDRAOGO BOURAHIMA, FAKAYODE ABDUL, KOFFI VICTOIRE, IRIE BI BOTTY, LEVI ANOH, KONE ABDOULAYE, THYEDIE AKPLI, ESSY ABRAN, FALLE SEROKO, KONATE KABA sur des quetions de comphehension de differents tâches à faire dans le doc, les fiches, les sources et les test et aussi sur des fonctions tels que Json.parse, Json.Stringify, Try/catch et bien d'autres.
