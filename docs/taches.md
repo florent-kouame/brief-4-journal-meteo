@@ -9,9 +9,9 @@
 | Fiche 3 : ajouter et lister ; choix 1 et 2 ; erreurs | deuxième jour | 04/11/2026 |  j'ai ajouté et listé les relevés , puis verifié avec npm run test:stockage |
 | Fiche 4 : rechercher et trier ; choix 3 et 4 | deuxième jour| 04/11/26 | j'ai recherché et trié les relevés puis verifier avec npm run test:recherche |
 | Fiche 5 : synthèse ; choix 5 | deuxième jour | 04/11/26 | statistique de la serie|
-| Tests par un camarade ; mes propres tests | | | |
+| Tests par un camarade ; mes propres tests | troisième jour, j'ai fais le commit de app.js (l'ensemble des choix) qui etait prevu les trois derniers jours| 05/11/26 | |
 | Fiche agronomique ; README ; documents | | | |
-| Dépôt cloné et lancé ailleurs ; démonstration répétée | | | |
-| Bonus | | | |
+| Dépôt cloné et lancé ailleurs ; démonstration répétée | troisième jour | 05/11/26| fait par Hire Etienne NEMLIN|
+| Bonus | troisième jour | 05/11/26 | J'ai fait un commit du bonus|
 
 **Blocages** (le message exact, ce que j'ai essayé, la solution) : ✏️
