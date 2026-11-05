@@ -16,4 +16,4 @@ Humidité relative de l'air (%) : c'est la proportion de vapeur d'eau présente 
 
 **Une limite pour l'interprétation climatique** (dix jours contre une trentaine d'années pour un climat ; ce que le seuil de 10 mm ne prévoit pas ; l'humidité de l'air n'est pas celle du sol) : Les données recueillies sur dix jours sont insuffisantes pour connaître le climat d'une région, car il faut généralement observer le temps pendant environ 30 ans. Le seuil de 10 mm permet seulement de repérer les journées où il a beaucoup plu, mais ne permet pas de prévoir les inondations ou les sécheresses. Enfin, l'humidité de l'air est différente de celle du sol : connaître l'une ne permet pas de connaître automatiquement l'autre.
 
-Sources : releves.json · Relu par le coach le : ✏️
+Sources : (releves.json) · Relu par le coach le : ✏️

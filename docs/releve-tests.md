@@ -13,11 +13,11 @@ Journées avec au moins 10 mm : "M03"(12 mm); "M08"(15 mm)
 
 | Action | Attendu | Obtenu | Testeur |
 | --- | --- | --- | --- |
-| Ajouter un relevé valide | Le relevé est enregistré |A tester| par moi-même |
-| Ajouter un relevé avec une date invalide | Le programme refuse la date |A tester | moi-même |
-| Ajouter un relevé avec une pluie négative | Le programme refuse la valeur |A tester | moi-même |
-| Rechercher un relevé inexistant | Le programme indique qu'aucun résultat n'a été trouvé | A tester | moi-même|
-| Trier les relevés par température | Les relevés sont classés par température croissante | A tester | moi-même |
-| Afficher la synthèse météorologique | Moyenne : 28 °C ; minimum : 26 °C ; maximum : 30 °C ; pluie : 45 mm ; 2 journées pluvieuses | A tester | moi-même |
+| Ajouter un relevé valide | Le relevé est enregistré |tester| moi |
+| Ajouter un relevé avec une date invalide | Le programme refuse la date |tester | moi|
+| Ajouter un relevé avec une pluie négative | Le programme refuse la valeur |tester | moi |
+| Rechercher un relevé inexistant | Le programme indique qu'aucun résultat n'a été trouvé |  tester | moi|
+| Trier les relevés par température | Les relevés sont classés par température croissante et decroissante | tester | moi |
+| Afficher la synthèse météorologique | Moyenne : 28 °C ; minimum : 26 °C ; maximum : 30 °C ; pluie : 45 mm ; 2 journées pluvieuses |tester | moi |
 
-**Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
+**Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : Hire Etienne NEMLIN 

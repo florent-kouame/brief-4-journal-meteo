@@ -5,8 +5,17 @@
 ## Contexte
 
 ## Contexte
+ Les données sont enregistrées dans le fichier donnees/releves.json.
+Le journal contient des relevés météorologiques fictifs utilisés dans le cadre de ce projet pédagogique.
+Chaque relevé comporte les informations suivantes :
 
-Le journal météorologique est un outil destiné aux responsables d'une ferme pédagogique pour enregistrer et suivre les données quotidiennes de température, de pluie et d'humidité de l'air. Il facilite la consultation et l'analyse des relevés, mais ne permet pas de prévoir le temps ni de caractériser le climat à long terme.
+Identifiant : permet d'identifier chaque relevé 
+Date : date de réalisation du relevé 
+Température : température de l'air exprimée en degrés Celsius (°C).
+Pluie : quantité de pluie enregistrée en millimètres (mm).
+Humidité de l'air : humidité relative exprimée en pourcentage (%).
+
+Ces données permettent de suivre les conditions météorologiques quotidiennes de la ferme et de réaliser des calculs statistiques simples.
 
 ## Prérequis et lancement
 
@@ -24,23 +33,37 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 ## Fonctionnalités
 
 ✏️ *Cochez seulement ce qui marche : `- [x]`.*
-
-- [] Données lues et enregistrées dans `donnees/releves.json`
-- [ ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
-- [ ] Lister les relevés, message si le journal est vide
-- [ ] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
-- [ ] Trier par température ou par pluie
-- [ ] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
+- [X] Données lues et enregistrées dans `donnees/releves.json`
+- [X] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
+- [X] Lister les relevés, message si le journal est vide
+- [X] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
+- [X] Trier par température ou par pluie
+- [X] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
 - [ ] Bonus : supprimer et modifier un relevé (choix 6 et 7)
-- [ ] Bonus : tri par température décroissante, journée la plus chaude
+- [X] Bonus : tri par température décroissante, journée la plus chaude
 
 ## Données
+Les relevés utilisés dans ce projet sont des données fictives, créées uniquement à des fins pédagogiques. Ils ne représentent pas des observations météorologiques réelles.
 
-✏️ *Le fichier, le nombre de relevés, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), les unités. Rappelez qu'ils sont fictifs.*
+Les données sont enregistrées dans le fichier (donnees/releves.json).
+Le journal contient des relevés météorologiques fictifs utilisés dans le cadre de ce projet pédagogique.
+Chaque relevé comporte les informations suivantes :
+
+Identifiant : permet d'identifier chaque relevé 
+Date : date de réalisation du relevé 
+Température : température de l'air exprimée en degrés Celsius (°C).
+Pluie : quantité de pluie enregistrée en millimètres (mm).
+Humidité de l'air : humidité relative exprimée en pourcentage (%).
+
+Ces données permettent de suivre les conditions météorologiques quotidiennes de la ferme et de réaliser des calculs statistiques simples.
 
 ## Limites
 
-✏️ *Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région.*
+Le journal météorologique présente certaines limites :
+Une courte période de relevés ne permet pas de caractériser le climat de la région à long terme.
+Les données utilisées sont fictives et ne représentent pas nécessairement les conditions météorologiques réelles de la ferme.
+Le programme ne permet pas de prévoir les conditions météorologiques futures.
+L'humidité relative de l'air ne correspond pas à l'humidité du sol et ne permet donc pas de déterminer directement les besoins en eau des cultures.
 
 ## Documents
 
@@ -48,4 +71,5 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Auteur
 
-✏️ *Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi.*
+KOUADIO KONAN FLORENT KOUAME, https://github.com/florent-kouame
+Entraide avec mon groupe du brief-4 sur des quetions de comphehension de differents tâches à faire dans le doc, les fiches, les sources et les test et aussi sur des fonctions tels que Json.parse, Json.Stringgify.
